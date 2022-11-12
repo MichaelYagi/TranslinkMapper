@@ -1,0 +1,45 @@
+/* Always set the map height explicitly to define the size of the div
+* element that contains the map. */
+#map {
+	height: 100%;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+    cursor:pointer;
+}
+
+a, label {
+    padding:0px 5px;
+}
+
+#tminputs {
+    margin-top:2px;
+    background-color:white;
+    padding:5px 30px 5px 5px;
+}
+
+#tmcontrols {
+    margin-top:2px;
+    background-color:white;
+    padding:5px;
+}
+
+#loading {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    background: url('../assets/poi.gif') no-repeat center center;
+    background-size: 28px 28px;
+    display: inline;
+}
+
+.modal .modal-body {
+    max-height: 420px;
+    overflow-y: auto;
+}
